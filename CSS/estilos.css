@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: aliceblue;
+}
+
+body{
+    background-image: url(../img/uuunion.svg);
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+header{
+    display:flex;
+    margin: auto;
+    justify-content: center;
+    width: 90vw;
+    height: 5vh;
+}
+
+nav{
+    display: flex;
+    margin: auto;
+    width: 99vw;
+    justify-content: center;
+}
+
+nav img{
+    display: inline-block;
+    display: flex;
+    width: 4.4vh;
+    height: auto;
+}
+
+nav ul{
+    display: inline-flex;
+    justify-content:right;
+    list-style: none;
+    min-width: 40vw;
+}
+
+nav ul li{
+    display: inline-block;
+    width: 100px;
+    padding-top: 12px;
+    text-align: center;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+main{
+    display: flex;
+    margin: auto;
+    margin-top: 0px;
+    width: 90vw;
+    height: 90.3vh;
+}
+
+.left-box{
+    display: inline-block;
+    width: 15vw;
+    margin-top: 5px;
+}
+
+.right-box{
+    width: 75vw;
+    margin-top: 15px;
+    margin-left: 5px;
+    margin-right: 10px;
+    height: 84.5vh;
+}
+
+.right-box p{
+    display: flex;
+    margin: 2vw;
+}
+
+.container-box{
+    display: block;
+    margin: 10px;
+    padding: 5px;
+    height: 21vh;
+    border-radius: 10px;
+}
+
+footer{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    height: 3.5vh;
+    margin-top: 7px;
+    margin-bottom: 5px;
+    width: 90vw;
+}
+
+footer h5{
+    display: flex;
+    margin: auto;
+    width: fit-content;
+    color: aliceblue;
+}
+
+.blur{
+    backdrop-filter: blur(5px) saturate(180%);
+    -webkit-backdrop-filter: blur(5px) saturate(180%);
+    background-color: rgba(17, 25, 40, 0.75);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+
+    -webkit-box-shadow: 0px 9px 12px -3px rgba(0,0,0,0.39);
+    -moz-box-shadow: 0px 9px 12px -3px rgba(0,0,0,0.39);
+    box-shadow: 0px 9px 12px -3px rgba(0,0,0,0.39);
+}
